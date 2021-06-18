@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: #eed9eba9;
+        }
+
+        #a {
+            height: 200px;
+            width: 200px;
+            background-color: red;
+            position: absolute;
+            transition-duration: 0.4s;
+            transition-timing-function: ease-out;
+            border-radius: 10%;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div id="a">
+
+    </div>
+    <script>
+        var div_a = document.getElementById('a');
+        document.getElementById('a').addEventListener('touchmove', function (e) {
+            console.log('touch move');
+
+            const e_x = e.targetTouches[0].clientX
+            const e_y = e.targetTouches[0].clientY
+
+            div_a.style.transform = `translate(${e_x - 100}px, ${e_y - 100}px)`;
+
+            e.preventDefault();
+
+            // div_a.style.transitionProperty = 'borderRadius';
+            // div_a.style.transitionDuration = '5s';
+            // div_a.style.borderRadius = '50%';
+            // div_a.classList.add('b');
+        })
+
+        document.getElementById('a').addEventListener('touchstart', function (e) {
+            // div_a.style.transitionDuration = '0.5s';
+            div_a.style.backgroundColor = 'blue';
+
+            div_a.style.borderRadius = '25%';
+        })
+
+        document.getElementById('a').addEventListener('touchend', function (e) {
+            // div_a.style.transitionDuration = '0.5s';
+            div_a.style.backgroundColor = 'red';
+
+            div_a.style.borderRadius = '10%';
+        })
+
+    </script>
+</body>
+
+</html>
