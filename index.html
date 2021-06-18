@@ -21,11 +21,12 @@
             width: 200px;
             background-color: red;
             position: absolute;
-            transition-duration: 0.4s;
+            transition-duration: 0.4s, 0.4s, 2s, 2s;
+            transition-delay: 0s, 0s, 5s, 5s;
+            transition-property: background-color, border-radius, height, width;
             transition-timing-function: ease-out;
-            border-radius: 10%;
+            border-radius: 25%;
         }
-
     </style>
 </head>
 
@@ -49,21 +50,38 @@
             // div_a.style.transitionDuration = '5s';
             // div_a.style.borderRadius = '50%';
             // div_a.classList.add('b');
+
+            setTimeout(function(){
+
+            },5000)
         })
 
         document.getElementById('a').addEventListener('touchstart', function (e) {
             // div_a.style.transitionDuration = '0.5s';
             div_a.style.backgroundColor = 'blue';
 
-            div_a.style.borderRadius = '25%';
+            div_a.style.borderRadius = '50%';
+
+            div_a.style.height = '400px';
+            div_a.style.width = '400px'
+
+            div_a.style.transitionDelay = '0s,0s,5s,5s';
+
         })
 
         document.getElementById('a').addEventListener('touchend', function (e) {
             // div_a.style.transitionDuration = '0.5s';
             div_a.style.backgroundColor = 'red';
 
-            div_a.style.borderRadius = '10%';
+            div_a.style.borderRadius = '25%';
+
+            div_a.style.height = '200px';
+            div_a.style.width = '200px';
+
+
+            div_a.style.transitionDelay = '0s';
         })
+
 
     </script>
 </body>
