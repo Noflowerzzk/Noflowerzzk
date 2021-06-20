@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>解压小球（有彩蛋）</title>
     <style>
         * {
             margin: 0;
@@ -21,9 +21,9 @@
             width: 200px;
             background-color: red;
             position: absolute;
-            transition-duration: 0.4s, 0.4s, 2s, 2s;
-            transition-delay: 0s, 0s, 5s, 5s;
-            transition-property: background-color, border-radius, height, width;
+            transition-duration: 0.4s, 0.4s, 2s, 2s, 0.4s, 0.4s;
+            transition-delay: 0s, 0s, 5s, 5s, 0s, 0s;
+            transition-property: background-color, border-radius, height, width, top, left;
             transition-timing-function: ease-out;
             border-radius: 25%;
         }
@@ -42,7 +42,20 @@
             const e_x = e.targetTouches[0].clientX
             const e_y = e.targetTouches[0].clientY
 
-            div_a.style.transform = `translate(${e_x - 100}px, ${e_y - 100}px)`;
+            const h = window.getComputedStyle(div_a).height.slice(0,
+                window.getComputedStyle(div_a).height.lastIndexOf('px'))
+            const w = window.getComputedStyle(div_a).width.slice(0,
+                window.getComputedStyle(div_a).width.lastIndexOf('px'))
+
+
+            // div_a.style.transform = `translate(${e_x - 100}px, ${e_y - 100}px)`;
+
+            div_a.style.top = `${e_y - Number(h) / 2}px`
+            div_a.style.left = `${e_x - Number(w) / 2}px`
+
+            // div_a.style.top = `${e_y - 100}px`
+            // div_a.style.left = `${e_x - 100}px`
+
 
             e.preventDefault();
 
@@ -51,9 +64,6 @@
             // div_a.style.borderRadius = '50%';
             // div_a.classList.add('b');
 
-            setTimeout(function(){
-
-            },5000)
         })
 
         document.getElementById('a').addEventListener('touchstart', function (e) {
@@ -65,7 +75,7 @@
             div_a.style.height = '400px';
             div_a.style.width = '400px'
 
-            div_a.style.transitionDelay = '0s,0s,5s,5s';
+            div_a.style.transitionDelay = '0s,0s,5s,5s,0s,0s';
 
         })
 
@@ -78,7 +88,7 @@
             div_a.style.height = '200px';
             div_a.style.width = '200px';
 
-div_a.style.transitionDuration = '0.4s'
+
             div_a.style.transitionDelay = '0s';
         })
 
