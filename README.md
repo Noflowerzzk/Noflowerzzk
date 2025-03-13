@@ -1,18 +1,18 @@
-![Noflowerzzk's GitHub stats](https://github-readme-stats.vercel.app/api?username=Noflowerzzk&show_icons=true)
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Noflowerzzk)](https://github.com/anuraghazra/github-readme-stats)
-<!--
+![Noflowerzzk's GitHub stats](https://github-readme-stats.vercel.app/api?username=Noflowerzzk&show_icons=true&count_private=true&theme=buefy)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Noflowerzzk&theme=buefy&hide=tex&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
+
 ### Hi there 👋
 
-**Noflowerzzk/Noflowerzzk** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
-Here are some ideas to get you started:
+- 🔭 I’m currently working on some MC Mods (Fabric)
+  - [DeathRace](https://github.com/Noflowerzzk/DeathRace)
+  - [HuntingTime](https://github.com/Noflowerzzk/HuntingTime)
+  - [CraftingExplode](https://github.com/Noflowerzzk/CraftingExplode)
+- 🌱 I’m currently learning **Java** & **C++**
+<!-- - 👯 I’m looking to collaborate on ... -->
+<!-- - 🤔 I’m looking for help with  -->
+<!-- - 💬 Ask me about ... -->
+- 📫 How to reach me: PLZ identity your identity first 😊
+- 😄 Pronouns: Secret! 
+- ⚡ Fun fact: Do you like MC? I have a server with minigames! 🙌
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
