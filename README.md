@@ -11,6 +11,7 @@
   - [NeverHitGround](https://github.com/Noflowerzzk/NeverHitGround)
   - [Manhunt](https://github.com/Noflowerzzk/Manhunt)
   - [(Coop)MCEFramework](https://github.com/AInfinity-LilacDream/MCEFramework) For minigame engine.
+- [Notebook](https://abiesjqq.github.io/Abies_Notebook/)
 - 🌱 I’m currently working on CV and EI (in [RHOS](https://mvig-rhos.com/))
 <!-- - 👯 I’m looking to collaborate on ... -->
 <!-- - 🤔 I’m looking for help with  -->
