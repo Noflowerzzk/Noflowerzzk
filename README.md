@@ -4,13 +4,14 @@
 ### Hi there 👋
 
 
-- 🔭 I’m currently working on some MC Mods (Fabric)
+- 🔭 I’m currently working on some MC Mods (Mainly Fabric)/Minigame plugins (Bukkit/Paper)
   - [DeathRace](https://github.com/Noflowerzzk/DeathRace)
   - [HuntingTime](https://github.com/Noflowerzzk/HuntingTime)
   - [CraftingExplode](https://github.com/Noflowerzzk/CraftingExplode)
   - [NeverHitGround](https://github.com/Noflowerzzk/NeverHitGround)
   - [Manhunt](https://github.com/Noflowerzzk/Manhunt)
-- 🌱 I’m currently learning **Java** & **C++**
+  - [(Coop)MCEFramework](https://github.com/AInfinity-LilacDream/MCEFramework) For minigame engine.
+- 🌱 I’m currently working on CV and EI (in [RHOS](https://mvig-rhos.com/))
 <!-- - 👯 I’m looking to collaborate on ... -->
 <!-- - 🤔 I’m looking for help with  -->
 <!-- - 💬 Ask me about ... -->
